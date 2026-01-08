@@ -1,0 +1,31 @@
+# Dados sensíveis
+credentials.json
+token.json
+*.pem
+*.p12
+*.key
+
+# Arquivos temporários
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+*.log
+
+# Arquivos de dados sensíveis
+Template/Fiscais.xlsx
+10.png
+contador_relatorios.json
