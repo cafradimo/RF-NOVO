@@ -2639,7 +2639,7 @@ def main():
                 if fase_atividade_outras:
                     fase_atividade = fase_atividade_outras
             
-            natureza = st.selectbox("Natureza", ["", "PÚBLICA", "PRIVADA", "MISTA", "OUTRAS"], 
+            natureza = st.selectbox("Natureza", ["", "RESIDENCIAL", "COMERCIAL", "PÚBLICA", "PRIVADA", "MISTA", "OUTRAS"], 
                                    key=f"natureza_select_{widget_counter}")
             
             if natureza == "OUTRAS":
@@ -3876,4 +3876,5 @@ def main():
         st.info("📊 Módulo em desenvolvimento para consulta de relatórios históricos.")
 
 if __name__ == "__main__":
+
     main()
