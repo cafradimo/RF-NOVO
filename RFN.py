@@ -2378,7 +2378,7 @@ def main():
         circular_numero = ""
         if circular_solicitado:
             circular_numero = st.text_input(
-                "Número da Circular:",
+                "Número do Ofício:",
                 placeholder="Digite o número do Oficio",
                 key=f"circular_numero_input_{widget_counter}"
             )
@@ -2415,7 +2415,7 @@ def main():
         circular_numero_recebido = ""
         if circular_recebido:
             circular_numero_recebido = st.text_input(
-                "Número da Circular:",
+                "Número do Ofício:",
                 placeholder="Digite o número do Oficio",
                 key=f"circular_numero_recebido_input_{widget_counter}"
             )
@@ -3249,4 +3249,5 @@ def main():
             st.rerun()
 
 if __name__ == "__main__":
+
     main()
