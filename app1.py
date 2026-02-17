@@ -39,7 +39,7 @@ CONTADOR_FILENAME = "contador_relatorios.json"
 # ========== CONFIGURAÇÃO PASTA LOCAL ==========
 def get_pasta_local(matricula):
     """Retorna o caminho da pasta local para salvar os PDFs"""
-    documentos = os.path.expanduser("~/Documents")
+    documentos = os.path.expanduser("~/Documentos")
     nome_pasta = f"RF-CREA-RJ-{matricula}"
     caminho_pasta = os.path.join(documentos, nome_pasta)
     
@@ -2929,4 +2929,5 @@ def main():
             st.rerun()
 
 if __name__ == "__main__":
+
     main()                            
