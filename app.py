@@ -34,7 +34,7 @@ st.set_page_config(
 # ========== CONFIGURAÇÃO GOOGLE DRIVE ==========
 SCOPES = ['https://www.googleapis.com/auth/drive']
 GOOGLE_DRIVE_FOLDER_ID = "119n021EjT2ilcc7ajUejGLv7mk7Gz8GI"
-SHARED_DRIVE_ID = "0AExAXm3UxqZFUk9PVA"
+SHARED_DRIVE_ID = "119n021EjT2ilcc7ajUejGLv7mk7Gz8GI"
 EXCEL_DATABASE_NAME = "Planilha Master.xlsx"
 CONTADOR_FILENAME = "contador_relatorios.json"
 SENHAS_FILENAME = "Senhas.xlsx"
